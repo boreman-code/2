@@ -60,11 +60,11 @@ h1, h2, h3, p, ul, figure {
   margin: 0;
 }
 
-h1 {
+.main-article-header {
   margin-bottom: 40px;
 }
 
-.container .paragraph {
+.paragraph {
   margin-bottom: 40px;
   width: 872px;
 }
@@ -81,16 +81,16 @@ h1 {
 }
 
 .box .paragraph {
-  width: 692px;
   margin-bottom: 10px;
+  width: 692px;
 }
 
-h2, h3 {
+.second-header, .block-header {
   margin-bottom: 10px;
 }
 
 .article-content {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 .article-content-item:not(:last-child) {
