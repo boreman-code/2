@@ -59,7 +59,7 @@ body {
 .download-link {
   padding-left: 30px;
   color: #3f2aff;
-  background: transparent url("/img/download.png") no-repeat left / contain;
+  background: transparent url("/img/download.png") no-repeat left center / contain;
 }
 
 .container {
@@ -74,11 +74,18 @@ h1, h2, h3, p, ul, figure {
 
 .main-article-header {
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  color: #333;
 }
 
 .paragraph {
   margin-bottom: 40px;
   width: 872px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
 
 .box {
@@ -86,6 +93,16 @@ h1, h2, h3, p, ul, figure {
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.first-box {
+  background-image: url("/img/decorate-1.png");
+}
+
+.second-box {
+  background-image: url("/img/decorate-2.png");
 }
 
 .box:last-child {
@@ -101,12 +118,50 @@ h1, h2, h3, p, ul, figure {
   margin-bottom: 10px;
 }
 
+.second-header {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.block-header {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
 .article-content {
   padding-left: 15px;
 }
 
 .article-content-item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.article-content-item::marker {
+  color: #3f2aff;
+}
+
+.article-content-link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+.article-content-link:hover {
+  border-bottom: 1px solid #a610cc;
+  color: #a610cc;
+}
+
+.highlight {
+  width: 100%;
+  padding: 50px 95px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
 }
 
 .image {
@@ -117,4 +172,13 @@ h1, h2, h3, p, ul, figure {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+  font-size: 0;
+}
+
+.figcaption {
+  border: 1px solid #b6b6b6;
+  padding: 19px 19px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
