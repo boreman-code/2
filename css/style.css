@@ -19,7 +19,7 @@ img {
 }
 
 body {
-	font-family: 'font', sans-serif;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -41,13 +41,25 @@ body {
   margin-bottom: 50px;
 }
 
+.link {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .nav-link {
   display: inline-block;
   padding: 24px 49px;
+  background-color: #3f2aff;
 }
 
 .nav-link:not(:last-child) {
   margin-right: 25px;
+}
+
+.download-link {
+  padding-left: 30px;
+  color: #3f2aff;
+  background: transparent url("/img/download.png") no-repeat left / contain;
 }
 
 .container {
