@@ -95,6 +95,7 @@ h1, h2, h3, p, ul, figure {
   margin-bottom: 40px;
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: contain;
 }
 
 .first-box {
