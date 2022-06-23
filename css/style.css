@@ -89,13 +89,13 @@ h1, h2, h3, p, ul, figure {
 }
 
 .box {
-  border-radius: 20px;
   padding: 30px;
-  background-color: #f3f3f3;
+  border-radius: 20px;
   margin-bottom: 40px;
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;
+  background-color: #f3f3f3;
 }
 
 .first-box {
@@ -156,8 +156,8 @@ h1, h2, h3, p, ul, figure {
 }
 
 .highlight {
-  width: 100%;
   padding: 50px 95px;
+  width: 100%;
   border-radius: 20px;
   font-weight: 700;
   font-size: 30px;
@@ -177,9 +177,121 @@ h1, h2, h3, p, ul, figure {
 }
 
 .figcaption {
-  border: 1px solid #b6b6b6;
   padding: 19px 19px;
+  border: 1px solid #b6b6b6;
   font-weight: 400;
   font-size: 14px;
   text-align: center;
 }
+
+.modules-container {
+  padding: 50px 0;
+}
+
+.header-link {
+  margin-bottom: 25px;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.first-header {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #3f2aff;
+}
+
+.main-link {
+  display: inline-block;
+  padding-left: 52px;
+  background: transparent url("/img/arrow.svg") no-repeat left center;
+  color: #3f2aff;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.modules-list {
+  display: block;
+  padding: 0;
+  font-size: 0;
+}
+
+.modules-item {
+  position: relative;
+  display: inline-block;
+  margin: 0 25px 25px 0;
+  padding: 205px 25px 25px;
+  width: 572px;
+  height: 505px;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.modules-item:nth-child(1) {
+  background-image: url("/img/first-module.png");
+}
+
+.modules-item:nth-child(2) {
+  background-image: url("/img/second-module.png");
+}
+
+.modules-item:nth-child(3) {
+  background-image: url("/img/third-module.png");
+}
+
+.modules-item:nth-child(4) {
+  background-image: url("/img/fourth-module.png");
+}
+
+.modules-item:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.modules-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.module-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3f2aff;
+}
+
+.lesson-list {
+  padding: 0;
+  font-size: 0;
+}
+
+.lesson-item {
+  font-size: 20px;
+  line-height: 33px;
+  list-style-type: none;
+
+}
+
+.module-number {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  font-size: 40px;
+  color: #eaeaea;
+}
+
+.link-wrapper {
+  text-align: center;
+}
+
+.more-link {
+  display: inline-block;
+  padding: 24px 75px;
+  border: 1px solid #3f2aff;
+  color: #3f2aff;
+}
+
